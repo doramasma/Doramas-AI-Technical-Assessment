@@ -1,0 +1,19 @@
+[project]
+name = "doramas-ai-technical-assessment"
+version = "0.1.0"
+description = "Technical assessment focused on sentiment analysis"
+readme = "README.md"
+keywords = ['Python', 'AI', 'Sentiment Analysis', 'uv']
+requires-python = "==3.12.1"
+dependencies = [
+    "fastapi>=0.115.12",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "pandas>=2.2.3",
+    "numpy>=2.2.5",
+    "scikit-learn>=1.6.1",
+    "datasets>=3.6.0",
+    "transformers>=4.51.3",
+    "torch>=2.5.1"
+]
+
