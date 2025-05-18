@@ -6,6 +6,7 @@ readme = "README.md"
 keywords = ['Python', 'AI', 'Sentiment Analysis', 'uv']
 requires-python = "==3.12.1"
 dependencies = [
+    "setuptools>=61.0",
     "uvicorn>=0.34.2",
     "fastapi>=0.115.12",
     "ipykernel>=6.29.5",
@@ -18,4 +19,3 @@ dependencies = [
     "accelerate>=1.7.0",
     "torch>=2.5.1"
 ]
-
